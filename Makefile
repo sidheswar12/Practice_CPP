@@ -15,4 +15,6 @@ all:
 	$(CXX) $(RES) -o $(OBJ)/reserve
 	$(CXX) $(STR) -o $(OBJ)/string
 	$(CXX) $(TMP) -o $(OBJ)/template
+clean:
+	rm -rf $(OBJ)
 
