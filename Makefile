@@ -5,6 +5,7 @@ LOP :=src/loop.cpp
 RES :=src/reserve.cpp
 STR :=src/string.cpp
 TMP :=src/template.cpp
+DAM :=src/damDesign.cpp
 OBJ :=build
 all:
 	rm -rf $(OBJ)
@@ -15,6 +16,8 @@ all:
 	$(CXX) $(RES) -o $(OBJ)/reserve
 	$(CXX) $(STR) -o $(OBJ)/string
 	$(CXX) $(TMP) -o $(OBJ)/template
+	$(CXX) $(DAM) -o $(OBJ)/damdesign
+
 clean:
 	rm -rf $(OBJ)
 
