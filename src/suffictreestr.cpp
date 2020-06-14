@@ -108,7 +108,7 @@ int countDistinctSubStr(string str)
   
 int main() 
 {  
-    string str = "ababafgdfhfgjgghkhlkl";
+    //string str = "ababafgdfhfgjgghkhlkl";
     for_each(str.begin(), str.end(), [](char & c){
 	c = ::tolower(c); });
     cout <<"Count: "<<countDistinctSubStr(str)<<endl; 
