@@ -6,6 +6,7 @@ RES :=src/reserve.cpp
 STR :=src/string.cpp
 TMP :=src/template.cpp
 DAM :=src/damDesign.cpp
+STS :=src/suffictreestr.cpp
 OBJ :=build
 all:
 	rm -rf $(OBJ)
@@ -17,6 +18,7 @@ all:
 	$(CXX) $(STR) -o $(OBJ)/string
 	$(CXX) $(TMP) -o $(OBJ)/template
 	$(CXX) $(DAM) -o $(OBJ)/damdesign
+	$(CXX) $(STS) -o $(OBJ)/suffictreestr
 
 clean:
 	rm -rf $(OBJ)
