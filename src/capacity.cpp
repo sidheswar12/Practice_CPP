@@ -16,6 +16,6 @@ int main ()
 
   cout << "size: " << (int) myvector.size() << endl;
   cout << "capacity: " << (int) myvector.capacity() << endl;
-  cout << "max_size: " << (int) myvector.max_size() << endl
+  cout << "max_size: " << (int) myvector.max_size() << endl;
   return 0;
 }
