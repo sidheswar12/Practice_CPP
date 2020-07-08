@@ -16,7 +16,7 @@ class Quack:Duck
     public:
     Quack()
     {
-        cout<<"Quack"<<endl;
+        cout<<"Quack Quack"<<endl;
     }
     ~Quack(){}
 
